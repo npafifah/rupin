@@ -1,0 +1,175 @@
+body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to bottom right, #e0f7fa, #fff3e0);
+            margin: 0;
+            padding: 2rem;
+        }
+.form-container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 14px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        h2 {
+            text-align: center;
+            color: #00796b;
+            margin-bottom: 1.5rem;
+        }
+label {
+            display: block;
+            margin-top: 1rem;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background-color: #00796b;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 0.5rem;
+            display: inline-block;
+        }
+
+        .btn-accept {
+            background-color: #26a69a;
+            color: white;
+        }
+
+        .btn-accept:hover {
+            background-color: #1e8e7e;
+        }
+
+        .btn-decline {
+            background-color: #ef5350;
+            color: white;
+        }
+
+        .btn-decline:hover {
+            background-color: #c62828;
+        }
+        input[type="text"],
+        input[type="number"],
+        select,
+        input[type="file"] {
+            width: 100%;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-top: 0.3rem;
+            background-color: #f9f9f9;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #26a69a;
+            box-shadow: 0 0 5px rgba(38, 166, 154, 0.3);
+            outline: none;
+            background-color: #fff;
+        }
+
+        button {
+            margin-top: 2rem;
+            width: 100%;
+            padding: 0.9rem;
+            background-color: #26a69a;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #1e8e7e;
+        }
+
+        img {
+            margin-top: 1rem;
+            border-radius: 8px;
+            max-width: 100%;
+            border: 1px solid #ddd;
+        }
+        input[type="text"],
+        input[type="number"],
+        select,
+        input[type="file"] {
+            width: 100%;
+            padding: 0.7rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-top: 0.3rem;
+            background-color: #f9f9f9;
+            transition: 0.2s;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #26a69a;
+    box-shadow: 0 0 5px rgba(38, 166, 154, 0.3);
+            background-color: #fff;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 1.5rem;
+            padding: 0.9rem;
+            background-color: #26a69a;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+        }
+
+        #preview {
+            display: none;
+            max-width: 200px;
+            margin-top: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }

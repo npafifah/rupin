@@ -1,0 +1,111 @@
+/* === Global === */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #e0f7fa, #fff3e0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #00796b;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* === Card Container === */
+.card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    width: 400px;
+    max-width: 95%;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.card h1,
+.card h2 {
+    color: #00796b;
+    margin-bottom: 0.5rem;
+}
+
+.card h1 {
+    font-size: 2rem;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+/* === Form Inputs === */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #26a69a;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(38, 166, 154, 0.3);
+}
+
+/* === Buttons === */
+button,
+.card button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #26a69a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover,
+.card button:hover {
+    background-color: #1e8e7e;
+}
+
+/* === Error Message === */
+.error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 0.75rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
